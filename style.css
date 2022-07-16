@@ -1,0 +1,87 @@
+
+
+.logo {
+  width: 64px !important;
+  height: 64px !important;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.container {
+  padding-left: 0;
+}
+
+.brand-name .navbar-brand {
+  color: #f9cd74;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #f9cd74;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.dropdown-item {
+  color: #f9cd74;
+}
+
+.dropdown-menu {
+  background-color: #5b887d;
+}
+
+.navbar-light .custom-toggler {
+  border-color: rgb(249, 205, 116);
+  border-width: 3px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(249, 205, 116)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#title {
+  background-color: #5b887d;
+  color: #f9cd74;
+}
+
+#title h2,
+h1 {
+  line-height: 1.5;
+  color: #f9cd74;
+  font-weight: 400;
+}
+
+.container-fluid {
+  padding: 1% 15%;
+}
+
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  transform: rotate(10deg);
+}
+
+.features {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  text-align: center;
+  color: hsl(165, 20%, 35%);
+  background-color: #f9cd74;
+}
+
+.features:hover {
+  transition: 500ms;
+  color: #f9cd74;
+  background-color: #5b887d;
+}
