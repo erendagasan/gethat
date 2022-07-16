@@ -80,6 +80,7 @@ h1 {
 }
 
 .features {
+  transition: 250ms;
   padding-top: 8%;
   padding-bottom: 8%;
   text-align: center;
