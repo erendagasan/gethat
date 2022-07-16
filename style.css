@@ -28,6 +28,7 @@
 
 .dropdown-item {
   color: #f9cd74;
+  text-align: center;
 }
 
 .dropdown-menu {
@@ -79,6 +80,20 @@ h1 {
 
 .download-buttons {
   margin: 5% 3% 5% 0;
+}
+
+.apple-store:hover {
+  transition: 250ms;
+  color: #5b887d;
+  background-color: #f9cd74;
+  border-color: #f9cd74;
+}
+
+.play-store:hover {
+  transition: 250ms;
+  color: #5b887d;
+  background-color: #f9cd74;
+  border-color: #f9cd74;
 }
 
 .title-img {
