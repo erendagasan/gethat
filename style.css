@@ -68,6 +68,13 @@ h1 {
   }
 }
 
+@media screen and (max-width: 350px) {
+  .container-fluid {
+    padding: 0% 1%;
+    text-align: center;
+  }
+}
+
 .download-buttons {
   margin: 5% 3% 5% 0;
 }
