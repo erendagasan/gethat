@@ -12,9 +12,15 @@
 }
 
 .brand-name .navbar-brand {
+  transition: 250ms;
   color: #f9cd74;
   font-size: 3.5rem;
   font-weight: 500;
+}
+
+.brand-name .navbar-brand:hover {
+  transition: 250ms;
+  color: black;
 }
 
 .nav-link {
@@ -82,6 +88,16 @@ h1 {
   margin: 5% 3% 5% 0;
 }
 
+.apple-store {
+  background-color: #284f60;
+  color: #f9cd74;
+}
+
+.play-store {
+  background-color: #284f60;
+  color: #f9cd74;
+}
+
 .apple-store:hover {
   transition: 250ms;
   color: #5b887d;
@@ -116,4 +132,75 @@ h1 {
   transition: 500ms;
   color: #f9cd74;
   background-color: #5b887d;
+}
+
+#comments {
+  background-color: #5b887d;
+  color: #f9cd74;
+}
+
+.soldier img {
+  width: 60%;
+  display: block;
+  margin-left: 25%;
+  margin-right: auto;
+}
+
+.comments {
+  padding: 8% 25% !important;
+}
+
+.comment {
+  text-align: left;
+}
+
+.comment i {
+  font-size: medium;
+}
+/* 
+#press {
+  background-color: #f9cd74;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#press img {
+  width: 80%;
+} */
+
+.carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 150px;
+}
+
+#carouselId {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: #f9cd74;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-item img {
+    transition: 250ms;
+    width: 150px;
+    height: 75px;
+  }
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%235b887d' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%235b887d' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel .carousel-indicators li {
+  background-color:#5b887d;
+}
+.carousel .carousel-indicators li.active {
+  background-color:#284f60;
 }
