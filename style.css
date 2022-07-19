@@ -115,8 +115,8 @@ h1 {
 .title-img {
   display: block;
   margin: auto;
-  width: 80%;
-  transform: rotate(10deg);
+  width: 75%;
+  transition: 250ms;
 }
 
 .features {
@@ -140,9 +140,9 @@ h1 {
 }
 
 .soldier img {
-  width: 60%;
+  width: 80%;
   display: block;
-  margin-left: 25%;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -188,6 +188,11 @@ h1 {
     width: 150px;
     height: 75px;
   }
+  .title-img {
+    transition: 250ms;
+    transform: rotateY(180deg);
+    margin-left: 5%;
+  }
 }
 
 .carousel-control-prev-icon {
@@ -203,4 +208,26 @@ h1 {
 }
 .carousel .carousel-indicators li.active {
   background-color:#284f60;
+}
+
+.partners {
+  background-color: #f9cd74;
+}
+
+.partners h1 {
+  color: #5b887d;
+  text-align: center;
+  font-weight: 500;
+}
+
+.partners .hepsiburada img{
+  width: 50%;
+}
+
+.partners .yemeksepeti img{
+  width: 50%;
+}
+
+.partners .aliexpress img{
+  width: 50%;
 }
