@@ -1,3 +1,7 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
 .logo {
   width: 64px !important;
   height: 64px !important;
@@ -7,7 +11,7 @@
   padding: 0 0 4.5rem;
 }
 
-.container {
+.brand-name {
   padding-left: 0;
 }
 
@@ -88,21 +92,9 @@ h1 {
   margin: 5% 3% 5% 0;
 }
 
-.apple-store {
-  background-color: #284f60;
-  color: #f9cd74;
-}
-
 .play-store {
   background-color: #284f60;
   color: #f9cd74;
-}
-
-.apple-store:hover {
-  transition: 250ms;
-  color: #5b887d;
-  background-color: #f9cd74;
-  border-color: #f9cd74;
 }
 
 .play-store:hover {
@@ -110,6 +102,10 @@ h1 {
   color: #5b887d;
   background-color: #f9cd74;
   border-color: #f9cd74;
+}
+
+.title-cap {
+  font-size: small !important;
 }
 
 .title-img {
@@ -140,7 +136,7 @@ h1 {
 }
 
 .soldier img {
-  width: 80%;
+  width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -151,7 +147,8 @@ h1 {
 }
 
 .comment {
-  text-align: left;
+  text-align: center;
+  width: fit-content;
 }
 
 .comment i {
@@ -230,4 +227,39 @@ h1 {
 
 .partners .aliexpress img{
   width: 50%;
+}
+
+#pricing {
+  color: #f9cd74;
+  background-color: #5b887d;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#pricing p {
+  color: #f9cd74 !important;
+}
+
+#pricing button{
+  color: #f9cd74;
+  background-color: #5b887d;
+}
+
+#pricing button:hover {
+  color: #5b887d;
+  background-color: #f9cd74;
+}
+
+#pricing .card {
+  background-color: #284f60;
+  border: none;
+}
+
+#pricing small {
+  color: #5b887d !important;
+}
+
+.card-header {
+  background-color: #f9cd74;
+  color: #5b887d;
 }

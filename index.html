@@ -17,12 +17,11 @@
       src="https://kit.fontawesome.com/9a232f7429.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap"
-      rel="stylesheet"
-    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <script
@@ -84,24 +83,24 @@
           </div>
         </nav>
 
-        <div class="row">
+        <div class="row title-cap">
           <div class="col-lg-6 col-md-6 pb-5">
             <h1>today, tomorrow or never! don't worry about your package.</h1>
-            <div class="download-buttons">
-              <button type="button" class="btn btn-lg mt-5 apple-store">
-                <i class="fa-brands fa-apple"></i> Download
-              </button>
-              <button type="button" class="btn btn-lg mt-5 play-store">
-                <i class="fa-brands fa-google-play"></i> Download
-              </button>
+            <div class="row gap-3 download-buttons">
+              <button type="button" class="col btn btn-lg mt-5 mb-5 play-store">
+                <i class="fa-brands fa-apple"></i></button>
+              <button type="button" class="col btn btn-lg mt-5 mb-5 play-store">
+                <i class="fa-brands fa-google-play"></i></button>
+                <button type="button" class="col btn btn-lg mt-5 mb-5 play-store">
+                <i class="fa-solid fa-desktop"></i></button>
             </div>
           </div>
-          <div class="col-md-6 pb-5">
+          <div class="col-lg-6 col-md-6 pb-5">
             <img class="title-img" src="./images/illus.png" alt="track" />
           </div>
         </div>
       </div>
-    </section>
+        </section>
 
     <section id="features">
       <div class="container-fluid features">
@@ -110,7 +109,7 @@
             <h3>
               <i
                 class="fa-solid fa-circle-check fa-2xl"
-                style="padding-bottom: 10%"
+                style="padding-bottom: 20%"
               ></i>
               <br />
               easy to use.
@@ -121,7 +120,7 @@
             <h3>
               <i
                 class="fa-solid fa-clock fa-2xl"
-                style="padding-bottom: 10%"
+                style="padding-bottom: 20%"
               ></i>
               <br />
               adjustable holding time.
@@ -132,7 +131,7 @@
             <h3>
               <i
                 class="fa-solid fa-lock fa-2xl"
-                style="padding-bottom: 10%"
+                style="padding-bottom: 20%"
               ></i>
               <br />
               guaranteed security.
@@ -147,19 +146,19 @@
     </section>
 
     <section id="comments">
-      <div class="container-fluid comments">
+      <div class="container comments">
         <div class="row">
-          <div class="col-lg-6 col-md-6 pb-5 pt-3 soldier">
+          <div class="pb-5 soldier">
             <img src="images/doc.png" alt="soldier" />
-          </div>
-          <div class="col-lg-6 col-md-6 mt-auto mb-auto pb-5 comment">
+        </div>
+          <div class="row comment">
             <h4>
               i have no longer need to be at home to get my package. gethat
-              handles unnecessary things for me! <br> <br>
+              handles unnecessary things for me! <br />
+              <br />
               <i> - a very busy looking man. </i>
             </h4>
           </div>
-        </div>
       </div>
     </section>
 
@@ -187,16 +186,23 @@
         </div>
       </div>
     </section> -->
+
     <section id="partners">
       <div class="container-fluid partners">
-        <h1 class="pt-5" >our lovely partners.</h1>
-        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <h1 class="pt-5">our lovely partners.</h1>
+        <div
+          id="carouselId"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-interval="1000"
+          data-pause="hover"
+        >
           <ol class="carousel-indicators">
             <li
               data-bs-target="#carouselId"
               data-bs-slide-to="0"
-              class="active"
               aria-current="true"
+              class="active"
               aria-label="First slide"
             ></li>
             <li
@@ -268,6 +274,70 @@
       </div>
     </section>
 
-    <section id="contact"></section>
+    <section id="pricing">
+    <div class="container py-3 pt-5 pb-5">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-2 fw-normal pb-5">pricing</h1>
+          <p class="fs-5 text-muted pb-3"> gethat works hard to provide you the most reliable prices.</p>
+        </div>
+    
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 rounded-3">
+              <div class="card-header py-3 card-header">
+                <h4 class="my-0 fw-3">free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>5 kg packages</li>
+                  <li>1 case</li>
+                  <li>e-mail support</li>
+                  <li>help center access</li>
+                  <li>package forwarder</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline fw-3">sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card mb-4 rounded-3">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-3">premium</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$5<small class="text-muted">/day</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 kg packages</li>
+                  <li>2 cases</li>
+                  <li>e-mail support</li>
+                  <li>help center access</li>
+                  <li>package forwarder</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline fw-3">get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card mb-4 rounded-3">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-3">enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$50<small class="text-muted">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 kg packages</li>
+                  <li>5 cases</li>
+                  <li>email support</li>
+                  <li>help center access</li>
+                  <li>package forwarder</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg fw-3">contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
   </body>
 </html>
