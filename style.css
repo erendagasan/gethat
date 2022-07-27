@@ -1,14 +1,16 @@
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
 
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 body {
@@ -33,6 +35,7 @@ body {
   color: white;
   font-size: 3.5rem;
   font-weight: 500;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .brand-name .navbar-brand:hover {
@@ -55,7 +58,7 @@ body {
 }
 
 .dropdown-menu {
-  background-color: #f06c5b;
+  background-color: #af2322;
   width: fit-content !important;
   height: fit-content !important;
   margin: auto;
@@ -71,7 +74,7 @@ body {
 }
 
 #title {
-  background-color: #f06c5b;
+  background-color: #af2322;
   color: white;
 }
 
@@ -118,7 +121,7 @@ h1 {
 
 .play-store:hover {
   transition: 250ms;
-  color: #f06c5b;
+  color: #af2322;
   background-color: white;
   border-color: white;
 }
@@ -218,7 +221,7 @@ h1 {
 }
 
 .partners h1 {
-  color: #f06c5b;
+  color: #af2322;
   text-align: center;
   font-weight: 500;
 }
@@ -237,7 +240,7 @@ h1 {
 
 #pricing {
   color: white;
-  background-color: #f06c5b;
+  background-color: #af2322;
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -248,11 +251,11 @@ h1 {
 
 #pricing button {
   color: white;
-  background-color: #f06c5b;
+  background-color: #af2322;
 }
 
 #pricing button:hover {
-  color: #f06c5b;
+  color: #af2322;
   background-color: white;
 }
 
@@ -262,24 +265,24 @@ h1 {
 }
 
 #pricing small {
-  color: #f06c5b !important;
+  color: #af2322 !important;
 }
 
 .card-header {
   background-color: white;
-  color: #f06c5b;
+  color: #af2322;
 }
 
 #what-we-do {
   background-color: white;
-  color: #f06c5b;
-  text-align: center;
+  color: #af2322;
+  text-align: left;
   padding-top: 4%;
   padding-bottom: 7%;
 }
 
 #what-we-do h1 {
-  color: #f06c5b;
+  color: #af2322;
 }
 
 #what-we-do p {
@@ -287,17 +290,17 @@ h1 {
 }
 
 hr {
-  color: #f06c5b;
+  color: #af2322;
   border: 3px solid;
   border-top: none;
 }
 
 #social-media {
-  background-color: #f06c5b;
+  background-color: #af2322;
 }
 
 .social-media {
-  background-color: #f06c5b;
+  background-color: #af2322;
   color: white;
   padding-top: 5%;
   padding-bottom: 2%;
@@ -307,7 +310,7 @@ hr {
 }
 
 .copyright {
-  background-color: #f06c5b;
+  background-color: #af2322;
   color: white;
   text-align: center;
   padding-bottom: 2%;
@@ -315,5 +318,75 @@ hr {
 
 #message {
   padding-top: 5%;
-  background-color: #f06c5b;
+  background-color: #af2322;
+}
+
+.map {
+  background-color: #af2322;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-h1 {
+  color: white;
+  text-align: center;
+}
+
+iframe {
+  width: 640px;
+  height: 480px;
+}
+
+@media screen and (max-width:640px) {
+  iframe {
+    width: 320px;
+    height: 240px;
+  }
+}
+
+.where-are-we-h3 {
+  color: #af2322;
+  text-align: left;
+  padding-top: 5%;
+}
+
+.where-are-we {
+  color: #af2322;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.where-are-we ul {
+  color: #af2322;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0%;
+  gap: 5%;
+  list-style-type: none;
+}
+
+@media screen and (max-width:600px) {
+  .where-are-we ul {
+    justify-content: center;
+  }
+  .where-are-we-h3 {
+    text-align: center;
+  }
+}
+
+.how-to {
+  color: #af2322;
+}
+
+.how-to h1 {
+  color: #af2322;
+}
+
+.how-to i {
+  color: #8f8f8f;
+}
+
+.how-to p {
+  color: #8f8f8f;
 }
