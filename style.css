@@ -227,7 +227,11 @@ h1 {
 }
 
 .partners .hepsiburada img {
-  width: 50%;
+  width: 300px;
+}
+
+.partners .trendyol img {
+  width: 33%;
 }
 
 .partners .yemeksepeti img {
@@ -334,14 +338,14 @@ hr {
 }
 
 iframe {
-  width: 640px;
-  height: 480px;
+  width: 720px;
+  height: 520px;
 }
 
 @media screen and (max-width:640px) {
   iframe {
     width: 320px;
-    height: 240px;
+    height: 400px;
   }
 }
 
